@@ -16,12 +16,13 @@
   },
   "author": "MrOxMasTer <59291123+MrOxMasTer@users.noreply.github.com>",
   "license": "MIT",
-  "repository": "MrOxMasTer/postcss-postcss",
+  "repository": "MrOxMasTer/postcss-tailwindcss-multiple-classes",
   "engines": {
     "node": ">=18.0.0"
   },
   "peerDependencies": {
-    "postcss": "^8.4.27"
+    "postcss": "^8.4.27",
+    "tailwindcss-multiple-classes": "^1.0.1"
   },
   "devDependencies": {
     "eslint": "^8.47.0",

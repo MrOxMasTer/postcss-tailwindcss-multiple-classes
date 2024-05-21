@@ -3,7 +3,11 @@ const createTransform = require("tailwindcss-multiple-classes");
 /**
  * @type {import('postcss').PluginCreator}
  */
-module.exports = ({ separator = "", opBracket = "", clBracket = "" } = {}) => {
+module.exports = ({
+  separator = ",",
+  opBracket = "(",
+  clBracket = ")",
+} = {}) => {
   const transformMultipleClasses = createTransform({
     separator,
     opBracket,
