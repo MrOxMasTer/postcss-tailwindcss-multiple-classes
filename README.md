@@ -6,6 +6,8 @@
 
 ---
 
+CSS file support
+
 [Installation](#installation)
 
 ## Installation
@@ -13,7 +15,7 @@
 Installation depending on the developer
 
 ```
-npm install --save-dev postcss-tailwindcss-multiple-classes
+npm install --save-dev tailwindcss-multiple-classes postcss-tailwindcss-multiple-classes
 ```
 
 Creating a function and exporting it:
