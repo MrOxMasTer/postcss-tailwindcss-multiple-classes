@@ -6,9 +6,29 @@
 
 ---
 
+## [The main plugin](https://www.npmjs.com/package/tailwindcss-multiple-classes?activeTab=readme)
+
 CSS file support
 
 [Installation](#installation)
+
+## Demonstration
+
+`Before:`
+
+```css
+.class {
+	@apply mm:bg-red,text-green;
+}
+```
+
+`After:`
+
+```css
+.class {
+	@apply mm:bg-red mm:text-green;
+}
+```
 
 ## Installation
 
@@ -27,8 +47,8 @@ module.exports = {
     // preferably better BEFORE tailwindcss
     "postcss-tailwindcss-multiple-classes": {
       separator: ",",
-      opBracket: "(",
-      clBracket: ")",
+      opBracket: "", // "("
+      clBracket: "", // ")"
     },
     "tailwindcss/nesting": {},
     tailwindcss: {},
