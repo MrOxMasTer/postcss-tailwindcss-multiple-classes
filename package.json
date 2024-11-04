@@ -1,6 +1,6 @@
 {
 	"name": "postcss-tailwindcss-multiple-classes",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "PostCSS plugin tailwindcss-multiple-classes",
 	"type": "commonjs",
 	"keywords": [
@@ -13,6 +13,7 @@
 	],
 	"scripts": {
 		"unit": "node --test index.test.js",
+		"debug": "node --inspect index.test.js",
 		"test": "npm run unit && eslint ."
 	},
 	"author": "MrOxMasTer <59291123+MrOxMasTer@users.noreply.github.com>",
@@ -22,7 +23,7 @@
 		"node": ">=18.0.0"
 	},
 	"dependencies": {
-		"tailwindcss-multiple-classes": "^1.0.6"
+		"tailwindcss-multiple-classes": "^1.0.7"
 	},
 	"devDependencies": {
 		"eslint": "^8.47.0",

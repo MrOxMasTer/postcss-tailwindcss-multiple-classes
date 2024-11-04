@@ -15,9 +15,9 @@ async function run(input, output, opts = {}) {
 
 test("does something", async () => {
 	await run(
-		"@apply mm:bg-redOrange,text-green",
-		"@apply mm:bg-redOrange mm:text-green",
-		{},
+		"@apply mm:bg-redOrange,text-green;",
+		"@apply mm:bg-redOrange mm:text-green;",
+		{ separator: ",", opBracket: "(", clBracket: ")" },
 	);
 });
 
